@@ -68,7 +68,7 @@ Nano Banana 2 / Nano Banana Pro / ChatGPT Image2 向けに、
 ### 1. アーティファクトとして使う（楽な方）
 
 公開アーティファクト：
-https://claude.site/public/artifacts/2bc9d68b-9da7-427d-a813-bdaec4735d47
+https://claude.ai/public/artifacts/2bc9d68b-9da7-427d-a813-bdaec4735d47
 
 claude.ai にログインして上記を開き、対話フローに従ってください。
 冒頭分岐（漢字 or 署名）→ 文字入力 → 情動 → 方針 → 類例 → プロンプト出力、の流れです。
