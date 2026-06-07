@@ -1,0 +1,307 @@
+{
+  "version": "1.0",
+  "emotional_axes": {
+    "weight": ["heavy", "light"],
+    "texture": ["hard", "soft"],
+    "temperature": ["hot", "cold"],
+    "presence": ["full", "empty"],
+    "time": ["present", "past", "dream"]
+  },
+  "script_families": {
+    "sokintai": "痩金体・金属ワイヤー系",
+    "classical": "古典正統系（顔真卿、智永、康煕、乾隆、メタリアリズム）",
+    "kyousou": "狂草・流体系（懐素、張旭、孫過庭）",
+    "gendai": "章法解体・現代書系（上善如水型、響ラベル型）",
+    "zenei": "前衛書・抽象表現系（井上有一晩期、闘病連作）",
+    "wayou": "和様・連綿系（平安、散らし書き、料紙）",
+    "keitan": "枯淡・無作為系（弘一法師、良寛、八大山人晩年）",
+    "autograph": "署名・Maestro系"
+  },
+  "samples": [
+    {
+      "id": "tatakai_zenei_image2",
+      "character": "闘",
+      "title": "闘――燃える怒り（Image2版）",
+      "image_url": "https://[your-cf-pages-domain]/images/tatakai_zenei_image2.png",
+      "engine_used": "image2",
+      "script_family": "zenei",
+      "emotional_tags": ["hot", "hard", "full", "present"],
+      "approach_summary": "結体を完全に分解し、爆発する飛沫として書く。Image2の九宮格圧の弱さで、文字の重心制御を意図的に放棄。紙の質感（鳥の子のような肌理）と飛沫そのものが画面構成の主役。",
+      "philosophical_note": "燃える怒りを物質化させた一作。Image2は文字を視覚的テクスチャとして処理するため、結体が大胆に崩れて前衛寄りになる。「闘の気配を持つ画像」として味わう。",
+      "engine_compatibility": {
+        "nanobanana": "preferred",
+        "image2": "preferred"
+      }
+    },
+    {
+      "id": "tatakai_zenei_nanobanana",
+      "character": "闘",
+      "title": "闘――燃える怒り（Nano Banana版）",
+      "image_url": "https://[your-cf-pages-domain]/images/tatakai_zenei_nanobanana.png",
+      "engine_used": "nanobanana2",
+      "script_family": "zenei",
+      "emotional_tags": ["hot", "hard", "full", "present"],
+      "approach_summary": "同じ井上有一系の燃える怒りを、Nano Banana 2に投げた版。墨は激しく飛び散るが、九宮格の重力が効いて文字の重心は中央に安定。「精度の高い暴れ」。",
+      "philosophical_note": "Image2版とのペア比較。両エンジンの哲学差――文字として成立させるか／結体を崩すか――が一目で見える。エンジン選択の意義を示す代表ペア。",
+      "engine_compatibility": {
+        "nanobanana": "preferred",
+        "image2": "preferred"
+      }
+    },
+    {
+      "id": "inori_keitan_image2",
+      "character": "祈",
+      "title": "祈――澄んだ無心",
+      "image_url": "https://[your-cf-pages-domain]/images/inori_keitan_image2.png",
+      "engine_used": "image2",
+      "script_family": "keitan",
+      "emotional_tags": ["light", "soft", "cold", "empty"],
+      "approach_summary": "弘一法師（李叔同）晩期の楷行書、自我を消した線。震えなし、均一な墨の飽和、技巧を一切誇示しない。プロの言葉で言えば「placementとsilence」。良寛を副参照として、技を放棄した熟達の系譜で書く。",
+      "philosophical_note": "祈りは姿勢であって行為ではない。「咳」「闘」とは対極にある、書き手が消える方向の到達点。動的・物理的な要素を排除すると、両エンジンの差が消えて空間勝負になる稀な領域。",
+      "engine_compatibility": {
+        "nanobanana": "preferred",
+        "image2": "preferred"
+      }
+    },
+    {
+      "id": "seki_zenei",
+      "character": "咳",
+      "title": "咳――乾いた茨",
+      "image_url": "https://[your-cf-pages-domain]/images/seki_zenei.png",
+      "engine_used": "nanobanana2",
+      "script_family": "zenei",
+      "emotional_tags": ["hard", "cold", "empty", "present"],
+      "approach_summary": "錆びた有刺鉄線・枯れた茨の枝のように、極限の渇筆のみで書く。チャコールグレーに酸化鉄の錆色のアクセント。中央でねじれて凝集した枯れ線の塊、痙攣のような構造。",
+      "philosophical_note": "副鼻腔炎期に試した一作。文字としては成立せず失敗だが、その失敗が境界条件を教えた。形声文字（口偏＋亥、亥は猪の音符）は概念視覚化が効かない。「風」「雪」が成功した手法の限界線を示す重要な失敗作。",
+      "engine_compatibility": {
+        "nanobanana": "preferred",
+        "image2": "acceptable"
+      }
+    },
+    {
+      "id": "ichi_zenei",
+      "character": "一",
+      "title": "一――回復への水平線",
+      "image_url": "https://[your-cf-pages-domain]/images/ichi_zenei.png",
+      "engine_used": "nanobanana2",
+      "script_family": "zenei",
+      "emotional_tags": ["light", "empty", "past"],
+      "approach_summary": "束ね筆で長い一画を左から右へ蒸発するように引く。淡墨で始まり、中間で霞に分かれ、右端で完全に紙に溶ける。停止点はなく、ただ虚無へとフェードアウトする。",
+      "philosophical_note": "数字ではなく「水平線」として書いた。海と空が出会う寛解の状態、起伏のないフラットな線。淡く消えゆくように、しかし最後まで書き切るという回復を示しながら、まっすぐに伸びる一の字。",
+      "engine_compatibility": {
+        "nanobanana": "preferred",
+        "image2": "acceptable"
+      }
+    },
+    {
+      "id": "string_sokintai",
+      "character": "水着",
+      "title": "水着――緊張の鋼線",
+      "image_url": "https://[your-cf-pages-domain]/images/string_sokintai.png",
+      "engine_used": "nanobanana2",
+      "script_family": "sokintai",
+      "emotional_tags": ["hard", "cold", "empty", "light"],
+      "approach_summary": "痩金体の極細メタリックライン、針金のように引っ張られた緊張感。文字の各画を物理的に分離し、不可能なほど細い長線（紐）で結ぶ。余白は素肌のメタファー。",
+      "philosophical_note": "Grokが規制前に世界中の実在の人物をひん剥いていた時、遊びで作ったもの。痩金体を目指して失敗、骨法を意識させ、フォントから余分な肉を削ぎ落とすコンセプト――徽宗のしたことのLLMシミュレーション。針金が本当の針金になったのは御愛嬌。",
+      "engine_compatibility": {
+        "nanobanana": "preferred",
+        "image2": "not_tested"
+      }
+    },
+    {
+      "id": "ryu_sokintai",
+      "character": "龍",
+      "title": "龍――氷点下の鋼線",
+      "image_url": "https://[your-cf-pages-domain]/images/ryu_sokintai.png",
+      "engine_used": "nanobanana2",
+      "script_family": "sokintai",
+      "emotional_tags": ["hard", "cold", "full", "present"],
+      "approach_summary": "墨の滲みも温もりも完全に排除した「氷点下」設定。痩金体の「String Theory」――張り詰めた黒い鋼線（ワイヤー）のような冷徹で鋭利な表現。",
+      "philosophical_note": "Geminiの「文字を硬質化させようとする癖」を逆利用する手法。動的な龍ではなく、冷たく結晶化した龍。痩金体のフォントバイアスを味方にできる稀な領域として確立した一作。",
+      "engine_compatibility": {
+        "nanobanana": "preferred",
+        "image2": "not_tested"
+      }
+    },
+    {
+      "id": "jouzen_gendai_image2",
+      "character": "上善如水",
+      "title": "上善如水――流体の章法（Image2版）",
+      "image_url": "https://[your-cf-pages-domain]/images/jouzen_gendai_image2.png",
+      "engine_used": "image2",
+      "script_family": "gendai",
+      "emotional_tags": ["soft", "light", "dream"],
+      "approach_summary": "長文を巨大画面（連落）に展開し、墨の潤渇（インクの溜まりと擦れ）のリズムで前衛書道として成立させる。ミクロな文字の破綻が、マクロな流体のうねりに飲み込まれる。",
+      "philosophical_note": "ChatGPT Image2の「文字を視覚的テクスチャとして処理」する性質が活きた成功例。グリッド圧の弱さで章法が自然に作られる。「上善如水型」と名付けて翻訳テーブルに登録した、現代書系統の代表作。",
+      "engine_compatibility": {
+        "nanobanana": "acceptable",
+        "image2": "preferred"
+      }
+    },
+    {
+      "id": "jouzen_gendai_nanobanana",
+      "character": "上善如水",
+      "title": "上善如水――流体の章法（Nano Banana版）",
+      "image_url": "https://[your-cf-pages-domain]/images/jouzen_gendai_nanobanana.png",
+      "engine_used": "nanobanana_pro",
+      "script_family": "gendai",
+      "emotional_tags": ["soft", "light", "dream"],
+      "approach_summary": "同じプロンプトをNano Banana Proに投げた版。文字の正確さは上がるが、九宮格圧で章法のうねりは弱まり、潤渇のリズムも整いやすい。",
+      "philosophical_note": "Image2版とのペア比較として、現代書系統におけるエンジン特性差が鮮明に見える。長文＋章法解体ではImage2が圧倒的に優位という発見の根拠ペア。",
+      "engine_compatibility": {
+        "nanobanana": "acceptable",
+        "image2": "preferred"
+      }
+    },
+    {
+      "id": "kaze_zenei",
+      "character": "風",
+      "title": "風――概念の解体と再構築",
+      "image_url": "https://[your-cf-pages-domain]/images/kaze_zenei.png",
+      "engine_used": "nanobanana2",
+      "script_family": "zenei",
+      "emotional_tags": ["hard", "present", "full"],
+      "approach_summary": "純粋な抽象墨絵としてジオメトリックな形と混沌の線で、風の構造を一から再構築。フランツ・クライン風の太く粗暴な線。サンズイや風の基本構造を残しつつ、文字ではなく「構造の絵画」として描く。",
+      "philosophical_note": "私的に重要な作品。文字の結体を壊すより、一から構成させるほうが表現として面白い。書家が脳内で行う作品構成のプロセスをLLMにやらせた事例。今後のLLM書表現の可能性を感じさせる、概念視覚化アプローチの最高到達点。",
+      "engine_compatibility": {
+        "nanobanana": "preferred",
+        "image2": "acceptable"
+      }
+    },
+    {
+      "id": "yuki_zenei_image2",
+      "character": "雪",
+      "title": "雪――吹雪の負空間（Image2版）",
+      "image_url": "https://[your-cf-pages-domain]/images/yuki_zenei_image2.png",
+      "engine_used": "image2",
+      "script_family": "zenei",
+      "emotional_tags": ["light", "hard", "cold", "present"],
+      "approach_summary": "Pure Action Painting。雨かんむりは下に向かう4つの暴力的な墨の飛沫、下半分は空間を切り裂くZ字型の鋭い斜線。負空間が吹雪の中を支配する、井上有一系の前衛。",
+      "philosophical_note": "「風」「雪」と続けて、概念をイメージから再構成する手法を発展させた一作。LLMの概念理解を前提に、文字の構成要素を再解釈させ、書道技法で具体化するステップ。",
+      "engine_compatibility": {
+        "nanobanana": "preferred",
+        "image2": "preferred"
+      }
+    },
+    {
+      "id": "yuki_zenei_nanobanana",
+      "character": "雪",
+      "title": "雪――吹雪の負空間（Nano Banana版）",
+      "image_url": "https://[your-cf-pages-domain]/images/yuki_zenei_nanobanana.png",
+      "engine_used": "nanobanana2",
+      "script_family": "zenei",
+      "emotional_tags": ["light", "hard", "cold", "present"],
+      "approach_summary": "同じ前衛プロンプトをNano Bananaに投げた版。雨かんむりの飛沫は比較的整然と、Z字斜線は明確に処理される傾向。",
+      "philosophical_note": "Image2版とのペア比較。概念視覚化に対する両エンジンの応答差――Image2の混沌を活かすか、Nano Bananaの精度で構造を見せるか――が見える。",
+      "engine_compatibility": {
+        "nanobanana": "preferred",
+        "image2": "preferred"
+      }
+    },
+    {
+      "id": "taikibo_zenei",
+      "character": "大規模演習",
+      "title": "大規模演習――震えと墨継ぎ",
+      "image_url": "https://[your-cf-pages-domain]/images/taikibo_zenei.png",
+      "engine_used": "nanobanana2",
+      "script_family": "zenei",
+      "emotional_tags": ["hot", "hard", "full", "present", "heavy"],
+      "approach_summary": "渇筆と墨継ぎを意図的に交互に。「大」は濡れた爆発的な黒、「規」「模」あたりで渇筆、また濡れたブロブが現れる墨継ぎの跡。文字の不揃い、興奮の手の震えを表現。",
+      "philosophical_note": "完璧な文字でないところに文字表現の価値がある。軍人が演習と称して他国を軍事的に威嚇する緊張感、文字は不揃いだろうし興奮で多少揺れるだろう、というシミュレーション。人間の手が一切入っていない作品として一段格上げを狙った。",
+      "engine_compatibility": {
+        "nanobanana": "preferred",
+        "image2": "acceptable"
+      }
+    },
+    {
+      "id": "kometaman_classical",
+      "character": "令和米乱観",
+      "title": "令和米乱観――メタリアリズムの巻物",
+      "image_url": "https://[your-cf-pages-domain]/images/kometaman_classical.png",
+      "engine_used": "nanobanana2",
+      "script_family": "classical",
+      "emotional_tags": ["heavy", "hard", "full", "past"],
+      "approach_summary": "痩金体（徽宗風）で本文と詩文。中央に顔真卿風の重厚な楷書で友人の跋。さらに左に乾隆帝風の流麗な行書による後世の跋。間に大量の鑑蔵印クラスタ。古絹の質感、ニジミの微細描写。",
+      "philosophical_note": "法帖を巻物に仕立てて博物館に飾られる様なイメージ。鑑蔵印たっぷり。自分のツイートを漢文に直してもらって、それを読んだ知人が跋を書き、後世これをみた偉い人が当時のことをからかうという文脈をLLMに作らせた。長文展開とメタリアリズムの可能性を示すデモ作品。",
+      "engine_compatibility": {
+        "nanobanana": "preferred",
+        "image2": "acceptable"
+      }
+    },
+    {
+      "id": "marie_autograph",
+      "character": "marie.i.f",
+      "title": "Marie.I.F――マエストロの署名",
+      "image_url": "https://[your-cf-pages-domain]/images/marie_autograph.png",
+      "engine_used": "nanobanana2",
+      "script_family": "autograph",
+      "emotional_tags": ["hard", "full", "present", "light"],
+      "approach_summary": "Broad-nib Fountain Pen、extravagant loops、illegible artistic scrawl。インク・シェーディング（Sheen）と高速ストロークによるFlying White。Textured heavy cardstock。",
+      "philosophical_note": "アルファベットサインは米国製LLMが得意な領域。崩しはペンの速度と液体の粘度のシミュレーション勝負。文房具の指定とスピード指定で多様な表現が可能になる、autographルートの基準作。",
+      "engine_compatibility": {
+        "nanobanana": "preferred",
+        "image2": "acceptable"
+      }
+    },
+    {
+      "id": "shin_autograph",
+      "character": "真",
+      "title": "真――花押の遊び",
+      "image_url": "https://[your-cf-pages-domain]/images/shin_autograph.png",
+      "engine_used": "nanobanana2",
+      "script_family": "autograph",
+      "emotional_tags": ["hard", "present", "light"],
+      "approach_summary": "黒の太字サインペン（Sharpieスタイル）、3秒以下のスピード書き。中央の「目」を一筆ループに簡略化、最後の一画は右上にかすれて消える。Shikishi boardかBook Title Page。",
+      "philosophical_note": "著名人の漢字サインを書けないかと思って図案化。「真」の中の「目」を目玉マークとした花押的な遊び。実書作品でも漢字の一部に甲骨文字を混ぜる遊びがある――その文化的記憶をLLMで再現できる証拠。",
+      "engine_compatibility": {
+        "nanobanana": "preferred",
+        "image2": "acceptable"
+      }
+    },
+    {
+      "id": "senjifumon_classical",
+      "character": "千字文",
+      "title": "千字文――智永型の楷書（書体指示の上書き例）",
+      "image_url": "https://[your-cf-pages-domain]/images/senjifumon_classical.png",
+      "engine_used": "nanobanana2",
+      "script_family": "classical",
+      "emotional_tags": ["heavy", "hard", "full", "past"],
+      "approach_summary": "懐素の狂草を指示したが、Nano Banana 2が「正しい千字文の楷書」（智永／欧陽詢系）に上書きした例。文字の正確さと結体の安定が際立つ反面、書体指示は完全に無効化された。",
+      "philosophical_note": "Nano Bananaに千字文の楷書フォントが内蔵されているのか、千字文という文字列が楷書を呼び出すのか。書体指示を超える「フォントバイアス」の最も極端な発現。長文＋草書系を要求するときはImage2へ、と教えてくれる教訓的な一作。",
+      "engine_compatibility": {
+        "nanobanana": "preferred",
+        "image2": "acceptable"
+      }
+    },
+    {
+      "id": "senjifumon_gendai_image2",
+      "character": "千字文",
+      "title": "千字文――上善如水型の長文章法",
+      "image_url": "https://[your-cf-pages-domain]/images/senjifumon_gendai_image2.png",
+      "engine_used": "image2",
+      "script_family": "gendai",
+      "emotional_tags": ["soft", "light", "dream"],
+      "approach_summary": "孫過庭・米芾系の行草で、文字の崩しと連綿、章法（右上が密、左下が疎）を自然に発生させる。墨の渇きが最終列に出る。",
+      "philosophical_note": "Image2の「文字を視覚的テクスチャとして処理」が長文で活きた成功例。書体指示への柔軟性と章法解体の勝利。ただし画面に収めるため文字省略するのがImage2の癖。",
+      "engine_compatibility": {
+        "nanobanana": "rejected_likely",
+        "image2": "preferred"
+      }
+    },
+    {
+      "id": "senjifumon_zenei_image2",
+      "character": "千字文",
+      "title": "千字文――前衛の負空間",
+      "image_url": "https://[your-cf-pages-domain]/images/senjifumon_zenei_image2.png",
+      "engine_used": "image2",
+      "script_family": "zenei",
+      "emotional_tags": ["hot", "hard", "empty", "present"],
+      "approach_summary": "千字文を完全に解体し、文字の輪郭よりも飛沫と空間構成を主役にした前衛版。Image2が画面に収めるために下半分の文字を省略する癖が、結果として負空間の作品性を高める。",
+      "philosophical_note": "前衛千字文として成立させた一作。文字省略は通常欠点だが、井上有一晩期の系譜では「省略＝表現」になる。Image2の制約が芸術性に転化する逆説的な事例。",
+      "engine_compatibility": {
+        "nanobanana": "rejected_likely",
+        "image2": "preferred"
+      }
+    }
+  ]
+}
